@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Rebe (si sale lo del my love es que no supe programar eso JAJAJAJAA)",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -22,36 +22,36 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Verdad que se me ocurren full cosas y me amas demasiado?",                                    // First interaction
+            yesBtn: "puede ser (mala opción)",                                             // Text for "Yes" button
+            noBtn: "obvio no (definitivamente una terrible opcion)",                                               // Text for "No" button
+            secretAnswer: "OBVIAMENTE SI!!!!!! ❤️👀"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
+            text: "haz una escala de cuanto me amas (y de que me parezco a Charly Flow)",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "Quieres ser mi Valentine este 2026? (y en verdad para toda la vida) 🌹👀", // The big question!
+            yesBtn: "SIIIII! (te amo muchisimo)",                                             // Text for "Yes" button
+            noBtn: "No (en verdad no quieres poner esto solamente que si le das que no es que te estas equivocando)"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "TANTO??? yo sabía en verdad?? 🚀",  // Shows when they go past 5000%
+        high: "me encanta!!! 🚀",              // Shows when they go past 1000%
+        normal: "full en verdad 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "soy la persona más feliz del mundo!! te amo!!",
+        message: "GRACIAS POR SER MI MEJOR REGALO TODOS LOS DIAS DE MI VIDA!!",
+        emojis: "🎁❤️🥳🎉"  // These will bounce around
     },
 
     // Color scheme for the website
